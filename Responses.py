@@ -13,7 +13,7 @@ def sample_responses(input_text):
         return "I am Great.What about you"
 
     if user_message in ("Who created you","who created you",):
-        return "Alok Shakya,Amit Sharma and Akshat Thakur Created me!"
+        return "Alok Shakya ,Amit Sharma and Akshat Thakur Created me!"
 
     if user_message in ("What Garullus means", "why your name is Garullus", "why your name is garullus ","Meaning of Garullus","meaning of garullus"):
         return "It is latin word of Chatterbox"
